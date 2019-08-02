@@ -21,7 +21,7 @@ sudo add-apt-repository -y ppa:dawidd0811/neofetch
 sudo apt-get -y update
 
 # installing
-sudo apt install neofetch -y
+sudo apt install neofetch -y --allow-unauthenticated
 
 echo "################################################################"
 echo "###################   neofetch installed   #####################"

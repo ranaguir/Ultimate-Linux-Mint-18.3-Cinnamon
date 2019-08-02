@@ -15,7 +15,7 @@
 # Downloading and installing latest variety
 sudo add-apt-repository ppa:peterlevi/ppa -y
 sudo apt-get update
-sudo apt-get install variety -y
+sudo apt-get install variety -y --allow-unauthenticated
 
 
 
