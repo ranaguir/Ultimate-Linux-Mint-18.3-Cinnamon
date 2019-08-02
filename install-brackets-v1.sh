@@ -15,15 +15,15 @@
 
 sudo apt install -y libcurl3
 
+#Se instala el paquete de aquí: https://launchpad.net/ubuntu/+source/libgcrypt11
 wget https://launchpad.net/ubuntu/+archive/primary/+files/libgcrypt11_1.5.3-2ubuntu4.6_amd64.deb
-wget https://github.com/adobe/brackets/releases/download/release-1.8/Brackets.Release.1.8.64-bit.deb
 
+wget https://github.com/adobe/brackets/releases/download/release-1.8/Brackets.Release.1.8.64-bit.deb
 
 sudo dpkg -i libgcrypt11_1.5.3-2ubuntu4.6_amd64.deb
 sudo dpkg -i Brackets.Release.1.8.64-bit.deb
 
 sudo apt-get -f install -y
-
 
 rm Brackets.Release.1.8.64-bit.deb
 rm libgcrypt11_1.5.3-2ubuntu4.6_amd64.deb
